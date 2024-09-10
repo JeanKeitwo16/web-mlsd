@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    margin: 20px 0px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.capa{
+    width: 80%;
+}
+.menuimg{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.imagemmenu{
+    width: 50%; 
+    border-radius: 50%;
+}
+.classnoticias{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 4% 10%;
+}
+.imgnoticia{
+    width: 100%;
+    padding: 4%;
+}
+.cabecalho{
+    background-color: #202020;
+}   
+.rodape{
+    background-color: #202020;
+    padding: 20px 20px;
+    font-weight: bold;
+}
+.textnoticia{
+    padding: 4% 10%;
+    text-align: left;
+}
